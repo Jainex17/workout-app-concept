@@ -1,13 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn-custom {
+  height: 50px;
+  left: 16px;
+  top: 574px;
+
+  background: linear-gradient(270deg, #7B91FF 0%, #95BEFF 100%);
+  border-radius: 12px;
+}
+
+.cal-btn {
+  background: rgb(209,219,255);
+background: linear-gradient(90deg, rgba(209,219,255,1) 0%, rgba(141,164,255,1) 100%);
+}
+
+.home-card {
+  background: rgba(140, 177, 255, 0.6);
 }
